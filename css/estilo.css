@@ -1,0 +1,375 @@
+    .red {
+        color: red;
+    }
+    .smallimg {
+        width: 10%;
+        height: 10%;
+    }
+    .destacadosh1 {
+        text-align: center;
+        color: white;
+    }
+        /* Background para el index principal*/
+    body {
+    
+        background-image: url("../fondo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+        /* Background para los index de Requisitos y todos sus links*/
+    .bRequisitos {
+    
+        background-image: url("../fondo2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+        /*Background para el index de Feedback */
+    .bFeedback {
+    
+        background-image: url("../fondo3.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .center {
+        text-align: center;
+        align-items: center;
+    }
+    .rowlg {
+        height: 100px;
+    }
+    /*Asignacion de font-family a los H y los P */
+    h1{
+        font-family: 'Press Start 2P', cursive;
+    }
+    h2 {
+      font-family: 'Press Start 2P', cursive;
+    }
+    
+
+    p {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 70%;
+    }
+    h5{
+        font-family: 'Press Start 2P', cursive;
+    }
+    /* Overlay para la pagina index y sus grids*/
+    .image-overlay {
+        display: block;
+        width: 100%;
+        height: 100%; 
+      }
+
+      .overlay {
+        position: absolute;
+        bottom: 0;
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5); 
+        color: #f1f1f1;
+        width: 92.1%;
+        height: 100%;
+        transition: .5s ease;
+        opacity:0;
+        color: white;
+        font-size: 20px;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      .container-md:hover .overlay {
+        opacity: 1;
+      }
+      
+      .bordertop {
+          margin-top: 1em;
+      }
+      .celesteazul {
+          color: rgb(0, 223, 253);
+      }
+      .blackback {
+          background-color: black;
+          padding-bottom: 1px;
+          margin-top: 10px;
+      }
+      .redsocial {
+          width: 10%;
+          height: 10%;
+      }
+      .motor {
+          color: yellowgreen;
+      }
+      .motor2 {
+          color: rgb(70, 250, 250);
+      }
+
+      .ue {
+          width: 15%;
+      }
+
+      .p-motores {
+          color: rgb(255, 255, 255);
+          margin-top: 5rem ;
+      }
+
+      .navbarletra {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 75%;
+      }
+      .separacion {
+          margin-top: 20px;
+      }
+      .p-motores:hover{
+          background-color: black;
+          opacity: .9;
+          transition: .2s;
+        /*Estilo propio del buscador de la Nav Bar */  
+      }
+      .buscador {
+        box-shadow: 3px 4px 0px 0px #1f4b52;
+        background:linear-gradient(to bottom, #a6d3e3 5%, #0b4852 100%);
+        background-color:#a6d3e3;
+        border-radius:18px;
+        border:1px solid #030405;
+        display:inline-block;
+        cursor:pointer;
+        color:#f7f7f7;
+        font-family:Arial;
+        font-size:17px;
+        padding:7px 25px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #8fb7c4;
+        font-family: 'Press Start 2P', cursive;
+    }
+    .buscador:hover {
+        background:linear-gradient(to bottom, #0b4852 5%, #a6d3e3 100%);
+        background-color:#0b4852;
+    }
+    .buscador:active {
+        position:relative;
+        top:1px;
+    }
+    input[type="search"]{
+        width:170px;
+        margin:10px;
+        padding:10px 16px;
+        border-radius:32px;
+        outline:none;
+        border:2px solid #ccd1d1;
+        background:#a7a0a4;
+        transition: 0.5s;
+    }
+    input[type="search"]:focus{
+        background:#fff;
+        width:300px;
+    }
+    /* Breakpoints propios para poner estilos propios segun estos breakpoints */
+    @media screen and (max-width: 767px) {
+        h1.telefono-p {
+          font-size: 5vw;
+        }
+    }
+        @media screen and (max-width: 767px) {
+            p.gmail {
+              font-size: 3vw;
+            }
+        }
+    img[alt="unreal engine"]{
+        width: 15%;
+    }        
+
+    @media screen and (max-width: 767px) {
+        p.p-motores {
+          font-size:55%;
+          width: 80%;
+          display: block;
+          margin: auto;
+          margin-left: 40px;
+        }
+    }
+        @media screen and (max-width: 767px) {
+            img[alt=cryengine] {
+           margin-top: 50px;
+            }
+        }
+            @media screen and (max-width: 767px) {
+                img[alt=unity] {
+               height:50%;
+               width: 50%;
+               margin-bottom: -150px;
+               
+               margin-right: 40px;
+                }
+            }
+                @media screen and (max-width: 767px) {
+                    .motores {
+                        width: 90%;
+                    }
+                }
+    
+             /* Estilos propios para cada H y cada P de los juegos insertos en Categorias */  
+        .hLoL {
+            color: rgb(63, 203, 254);
+        }
+        .pLoL{
+            color: rgb(172, 249, 255);
+        }
+
+        .hDota{
+            color: rgb(253, 115, 1);
+        }
+        .pDota{
+            color: rgb(250, 184, 1);
+        }
+        .hXcom{
+            color: rgb(63, 203, 254);
+        }
+        .pXcom{
+            color: rgb(172, 249, 255);
+        }
+        .hUncharted{
+            color: red;
+        }
+        .pUncharted{
+            color: rgb(245, 72, 29);
+        }
+        .hCK{
+            color: rgb(253, 115, 1);
+        }
+        .pCK{
+            color: rgb(20, 255, 20);
+        }
+        .hTlou{
+            color: wheat;
+        }
+        .pTlou{
+            color: white
+        }
+
+       /* Botones del index Categorias */ 
+       
+       .buttongames {
+        display: inline-flex;
+        height: 40px;
+        width: 150px;
+        border: 2px solid #BFC0C0;
+        color: #BFC0C0;
+        text-transform: uppercase;
+        text-decoration: none;
+        font-size: .8em;
+        letter-spacing: 1.5px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+      
+      a {
+        color: #BFC0C0;
+        text-decoration: none;
+        letter-spacing: 1px;
+      }
+      
+       .buttong {
+        position: relative;
+        overflow: hidden;
+        cursor: pointer;
+      }
+      
+      .buttong a {
+        position: relative;
+        transition: all .45s ease-Out;
+      }
+      
+      .translate {
+        transform: rotate(50deg);
+        width: 100%;
+        height: 250%;
+        left: -200px;
+        top: -30px;
+        background: #BFC0C0;
+        position: absolute;
+        transition: all .3s ease-Out;
+      }
+      
+      .buttong:hover .translate {
+        left: 0;
+      }
+      
+      .buttong:hover a {
+        color: #2D3142;
+      }
+      /* Estilo para los index de los juegos como LoL.html Dota.html etc... */
+      div.requisitos{
+        font-family: 'Press Start 2P', cursive; 
+      }
+      div.requisitos h3 {
+          color: rgb(0, 183, 255);
+      }
+      ul.requisitos>li {
+          color: rgb(255, 183, 28)
+      }
+      p.requisitos{
+          color: rgb(166, 255, 0);
+          margin-top: 3vw;
+      }
+      h1.requisitos{
+          color: rgb(106, 225, 255);
+      }
+      .zoom:hover {
+          transform: scale(1.05);
+      }
+      .zoom {
+          transition: .3s;
+      }
+      /* Estilo para el iFrame de la pagina Accion.html */
+      .accionvid {
+        height: 50em;
+        width: auto;
+      }  
+      /*Breakpoint especificos para Requisitos.html ya que hay estilos que no concuerdan y necesitan estilo propio para el responsive*/
+       @media screen and (max-width: 767px) {
+        .accionvid {
+            height: 20em;
+            width: 80%;
+        }
+    }
+    @media screen and (max-width: 767px) {
+    .h1uncharted  {
+        font-size: 6vw;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        div.requisitos>h3{
+            font-size: 6vw;
+        }
+    }
+    @media screen and (max-width: 767px){
+    .h1requisitos{
+        font-size: 10vw;
+    }
+}
+/*Breakpoint para el estilo de el H1 de Feedback.html*/ 
+@media screen and (max-width: 767px){
+    .feedback{
+        font-size: 10vw;
+    }
+}
+/*Estilo para las letras del Form del Feedback.html */
+.feedbackForm{
+    color: rgb(231, 46, 255);
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+.inputFeedback{
+    opacity: .3;
+    color: black;
+    transition: .2s;
+}
+.inputFeedback:hover{
+    opacity: 1;
+    color: rgb(0, 247, 255);
+}
+
